@@ -154,6 +154,7 @@ header {
 .header-adress-mail-svg {
   margin-right: 10px;
   fill: var(--second-font-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-adress-item:hover .header-adress-mail-svg {
   fill: var(--accent-color);
@@ -379,6 +380,7 @@ header {
 }
 .social-links-svg {
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-links:hover {
   background-color: var(--accent-color);
@@ -419,9 +421,11 @@ header {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-links-svg {
   fill: var(--second-font-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-links:hover {
@@ -513,6 +517,7 @@ header {
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-links-svg-footer {
   fill: var(--light-text-color);
@@ -542,6 +547,9 @@ header {
   justify-content: center;
   margin-bottom: 34px;
   margin-top: 93px;
+}
+.button-item {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .work-list {
   display: flex;
